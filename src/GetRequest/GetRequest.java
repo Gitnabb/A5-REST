@@ -1,5 +1,7 @@
 package GetRequest;
 
+import JSONParser.JSONParser;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,6 +17,7 @@ import java.net.URL;
 
 public class GetRequest {
 
+    JSONParser jsonParser;
 
     public static void main(String[] args){
         GetRequest getRequest = new GetRequest("datakomm.work", 80);
@@ -61,6 +64,12 @@ public class GetRequest {
                 String responseBody = convertStreamToString(inputStream);
                 inputStream.close();
                 System.out.println("Response from server: " + responseBody);
+
+                // Parse JSON info
+                this.jsonParser = new JSONParser();
+                JSONParser.parseJSON(responseBody);
+
+
             } else {
                 String responseDescription = connection.getResponseMessage();
                 System.out.println("Request failed, response code: " + responseCode + " (" + responseDescription + ") ");

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ce65f65-565c-4815-a641-84499740c1d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/POSTRequest/POSTRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GetRequest/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetRequest/GetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetRequest/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GETRequest/GETRequest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,12 +54,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetRequest.GetRequest" />
+    <configuration name="GETRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GETRequest.GETRequest" />
       <module name="A5-REST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GetRequest.*" />
+          <option name="PATTERN" value="GETRequest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,7 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetRequest" />
+        <item itemvalue="Application.GETRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -83,8 +84,16 @@
       <option name="presentableId" value="Default" />
       <updated>1573412142725</updated>
       <workItem from="1573412144022" duration="1451000" />
-      <workItem from="1573413627772" duration="721000" />
+      <workItem from="1573413627772" duration="1633000" />
     </task>
+    <task id="LOCAL-00001" summary="Checkpoint">
+      <created>1573414375351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573414375351</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Checkpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkpoint" />
   </component>
 </project>

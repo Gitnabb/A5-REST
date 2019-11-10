@@ -1,4 +1,4 @@
-package GetRequest;
+package GETRequest;
 
 import JSONParser.JSONParser;
 
@@ -15,18 +15,18 @@ import java.net.URL;
  *
  */
 
-public class GetRequest {
+public class GETRequest {
 
     JSONParser jsonParser;
 
     public static void main(String[] args){
-        GetRequest getRequest = new GetRequest("datakomm.work", 80);
+        GETRequest getRequest = new GETRequest("datakomm.work", 80);
         getRequest.doSendGet();
     }
 
     private String BASE_URL; // URL of the server
 
-    public GetRequest(String host, int port){
+    public GETRequest(String host, int port){
 
         BASE_URL = "http://" + host + ":" + port +"/";
 

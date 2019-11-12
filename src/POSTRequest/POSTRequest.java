@@ -1,5 +1,7 @@
 package POSTRequest;
 
+import GETRequest.GETRequest;
+import JSONParser.JSONParser;
 import org.json.JSONObject;
 
 import java.io.*;
@@ -9,7 +11,9 @@ import java.net.URL;
 
 public class POSTRequest {
 
+    JSONParser jsonParser;
     JSONObject jsonObject;
+    GETRequest getRequest;
 
     public static void main(String[] args) {
         POSTRequest postRequest = new POSTRequest("datakomm.work", 80);
@@ -51,7 +55,7 @@ public class POSTRequest {
 
     }
 
-    public void authorize() {
+    private void authorize() {
 
         String email = "kjetilbh@stud.ntnu.no";
         String phone = "48899500";
@@ -62,6 +66,13 @@ public class POSTRequest {
 
         System.out.println("Posting JSON data to server..... ");
         sendPost("dkrest/auth", jsonInfo);
+
+    }
+
+    private void requestTask(){
+
+
+
 
     }
 
@@ -97,6 +108,8 @@ public class POSTRequest {
                 inputStream.close();
                 System.out.println("Response from server: ");
                 System.out.println(responseBody);
+
+
             } else {
                 String responseDescription = con.getResponseMessage();
                 System.out.println("Request failed, response code: " + responseCode + " (" + responseDescription + ")");

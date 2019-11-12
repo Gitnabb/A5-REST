@@ -35,6 +35,7 @@ public class JSONParser {
 
     }
 
+
     /**
      * Get all json objects in a json string and display the array
      * @param jsonArrayString

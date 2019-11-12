@@ -90,6 +90,7 @@ public class GETRequest {
          * @return body as string
          */
     }
+
     public String convertStreamToString(InputStream inputStream){
 
         BufferedReader in = new BufferedReader((new InputStreamReader(inputStream)));

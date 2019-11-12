@@ -53,7 +53,7 @@ public class POSTRequest {
 
     public void authorize() {
 
-        String email = "kjetilbh@ntnu.no";
+        String email = "kjetilbh@stud.ntnu.no";
         String phone = "48899500";
 
         JSONObject jsonInfo = new JSONObject();

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ce65f65-565c-4815-a641-84499740c1d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POSTRequest/POSTRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POSTRequest/POSTRequest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0ce65f65-565c-4815-a641-84499740c1d1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573412142725</updated>
       <workItem from="1573412144022" duration="1451000" />
-      <workItem from="1573413627772" duration="7127000" />
+      <workItem from="1573413627772" duration="7512000" />
     </task>
     <task id="LOCAL-00001" summary="Checkpoint">
       <created>1573414375351</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573573782500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ updated email in json data. &#10;+ authorize method works as intended">
+      <created>1573574666889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573574666889</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +154,7 @@
     <MESSAGE value="Checkpoint" />
     <MESSAGE value="+ Started on POSTRequest class. &#10;+ Refactored GETRequest class." />
     <MESSAGE value="+ Implemented authorize method...not entirely functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Implemented authorize method...not entirely functional" />
+    <MESSAGE value="+ updated email in json data. &#10;+ authorize method works as intended" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ updated email in json data. &#10;+ authorize method works as intended" />
   </component>
 </project>

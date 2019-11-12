@@ -111,10 +111,4 @@ public class GETRequest {
 
     }
 
-    public static void convertToJSON(InputStream inputStream){
-
-
-    }
-
-
 }
